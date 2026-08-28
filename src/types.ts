@@ -34,6 +34,7 @@ export interface WorkSite {
 }
 
 export interface Assignment {
+  id: string;
   employeeId: string;
   workSiteId: string;
 }
